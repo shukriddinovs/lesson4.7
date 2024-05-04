@@ -7,7 +7,7 @@ let result = confirm("Siz jarayon etishni hohlaysizmi")
 
 if (result) {
     array.pop()
-    let l = array.lenght
+    let l = array.length
     alert("Kesilgan arraynin uzunligi = 1 " + l)
     console.log("Kesilgan arraynin uzunligi = 1 " + l);
     
