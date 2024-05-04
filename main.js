@@ -1,11 +1,17 @@
+let array = prompt["banan","qulupnay","olma","tarvuz"]
+let long = array.lenght
+console.log("Arrayning uzunlig 4 = " + long);
+alert("Arrayning uzunlig 4 = " + long);
 
-const arNAME = prompt["olma","banan","gilos","qulupnay"];
-let l = arNAME,length;
-let t;
-alert(l);
-let d = confirm("siz arraydan element ochirmoqchimisiz");
-if (d) {
-    t = arNAME.pop() ;
+let result = confirm("Siz jarayon etishni hohlaysizmi")
+
+if (result) {
+    array.pop()
+    let l = array.lenght
+    alert("Kesilgan arraynin uzunligi = 1 " + l)
+    console.log("Kesilgan arraynin uzunligi = 1 " + l);
+    
+}else{
+    let l = array.lenght;
+    console.log("siz jarrayon toxtatganiz uchun l" + l );
 }
-alert(t);
-alert(arNAME);
